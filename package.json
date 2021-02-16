@@ -4,7 +4,7 @@
   "description": "Proyecto del curso avanzado de backend con NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pm2 start api/index.js && pm2 start mysql/index-mysql.js && pm2 start post/index-post.js"
   },
   "repository": {
     "type": "git",
