@@ -25,6 +25,16 @@
     "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {
-    "jasmine": "^3.6.4"
+    "axios": "^0.21.1",
+    "browserify": "^17.0.0",
+    "jasmine": "^3.6.4",
+    "karma": "^6.1.1",
+    "karma-browserify": "^8.0.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage-istanbul-reporter": "^3.0.3",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-html-reporter": "^1.5.4",
+    "karma-mocha-reporter": "^2.2.5",
+    "watchify": "^4.0.0"
   }
 }
