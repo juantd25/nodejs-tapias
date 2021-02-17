@@ -23,5 +23,8 @@
     "mysql": "^2.18.1",
     "nanoid": "^3.1.20",
     "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.4"
   }
 }
